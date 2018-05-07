@@ -1,0 +1,13 @@
+# Template file for 'gigolo'
+pkgname=gigolo
+version=0.4.2
+revision=1
+build_style=gnu-configure
+hostmakedepends="intltool pkg-config"
+makedepends="gtk+-devel gvfs-devel"
+short_desc="Frontend to manage connections to remote filesystems using GIO/GVFS"
+maintainer="Mike Wortin <mikewortin@gmail.com>"
+license="GPL-2.0-only"
+homepage="https://www.uvena.de/gigolo"
+distfiles="https://files.uvena.de/${pkgname}/${pkgname}-${version}.tar.bz2"
+checksum=553fc78fe4e7bd2f01f3851baea7e63f6414fe652dfb4b08c60b5c4b2b909164
