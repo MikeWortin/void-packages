@@ -1,0 +1,13 @@
+# Template file for 'elementary-icon-theme'
+pkgname=elementary-icon-theme
+version=4.3.1
+revision=1
+wrksrc="icons-${version}"
+build_style=cmake
+depends="hicolor-icon-theme"
+short_desc="Named, vector icons for elementary OS"
+maintainer="Mike Wortin <mikewortin@gmail.com>"
+license="GPL-3.0-or-later"
+homepage="https://github.com/elementary/icons"
+distfiles="https://github.com/elementary/icons/archive/${version}.tar.gz"
+checksum=2fcb35760aa3285a17ecd5ef127fe5384a20cb6e86c2b4cd9ed7942063a70a10
